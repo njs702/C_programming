@@ -5,8 +5,8 @@ void main() {
 	int value = 38;
 	char a = 'T';
 	int* pi = &value;
+	int** pi2 = &pi;
 	char* pc = &a;
-	
 
-	printf("value 값 : %d, a값 : %c\n", *pi,*pc);
+	printf("value 값 : %d, a값 : %c\n", **pi2,*pc);
 }
