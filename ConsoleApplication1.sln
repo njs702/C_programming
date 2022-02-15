@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "print,width,presicsion", "p
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "scanf", "scanf\scanf.vcxproj", "{9893D46A-B9F5-476A-9AE0-EE1FB6088F6D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "modular", "modular\modular.vcxproj", "{8D0FDF00-6502-4A22-9C71-D8E3FF5A95D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{9893D46A-B9F5-476A-9AE0-EE1FB6088F6D}.Release|x64.Build.0 = Release|x64
 		{9893D46A-B9F5-476A-9AE0-EE1FB6088F6D}.Release|x86.ActiveCfg = Release|Win32
 		{9893D46A-B9F5-476A-9AE0-EE1FB6088F6D}.Release|x86.Build.0 = Release|Win32
+		{8D0FDF00-6502-4A22-9C71-D8E3FF5A95D8}.Debug|x64.ActiveCfg = Debug|x64
+		{8D0FDF00-6502-4A22-9C71-D8E3FF5A95D8}.Debug|x64.Build.0 = Debug|x64
+		{8D0FDF00-6502-4A22-9C71-D8E3FF5A95D8}.Debug|x86.ActiveCfg = Debug|Win32
+		{8D0FDF00-6502-4A22-9C71-D8E3FF5A95D8}.Debug|x86.Build.0 = Debug|Win32
+		{8D0FDF00-6502-4A22-9C71-D8E3FF5A95D8}.Release|x64.ActiveCfg = Release|x64
+		{8D0FDF00-6502-4A22-9C71-D8E3FF5A95D8}.Release|x64.Build.0 = Release|x64
+		{8D0FDF00-6502-4A22-9C71-D8E3FF5A95D8}.Release|x86.ActiveCfg = Release|Win32
+		{8D0FDF00-6502-4A22-9C71-D8E3FF5A95D8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

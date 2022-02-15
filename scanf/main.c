@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <string.h>
+
 #define _CRT_SECURE_NO_WARNINGS 
 
 
@@ -13,7 +15,7 @@ void main() {
 	printf("키를 입력하세요 : ");
 	scanf_s("%f", &height);
 	printf("이름을 입력하세요 : ");
-	scanf_s("%s", name,32);
+	scanf_s("%s", name,sizeof(name) / sizeof(name[0]));
 
 	printf("안녕하세요. %d살, 키 %.2fcm의 %s님\n",age,height,name);
 

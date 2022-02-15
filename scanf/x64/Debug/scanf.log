@@ -1,3 +1,5 @@
 ﻿  main.c
-C:\Users\USER\source\repos\ConsoleApplication1\scanf\main.c(27,7): warning C4013: 'putch'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\USER\source\repos\ConsoleApplication1\scanf\main.c(18,10): warning C4477: 'scanf_s' : 서식 문자열 '%s'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'unsigned __int64'입니다.
+C:\Users\USER\source\repos\ConsoleApplication1\scanf\main.c(18,10): message : 이 인수는 버퍼 크기로 사용됩니다.
+C:\Users\USER\source\repos\ConsoleApplication1\scanf\main.c(29,7): warning C4013: 'putch'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
   scanf.vcxproj -> C:\Users\USER\source\repos\ConsoleApplication1\x64\Debug\scanf.exe
