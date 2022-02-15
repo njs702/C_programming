@@ -2,11 +2,13 @@
 
 void main() {
 	
-	int value = 38;
+	int value = 38, value2;
 	char a = 'T';
 	int* pi = &value;
 	int** pi2 = &pi;
 	char* pc = &a;
 
-	printf("value 값 : %d, a값 : %c\n", **pi2,*pc);
+	value2 = *pi;
+
+	printf("value 값 : %d, value2 값 : %d, a값 : %c\n", **pi2,value2,*pc);
 }
