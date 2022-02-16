@@ -14,8 +14,13 @@ void moveSharp() {
 		gotoxy(x, y);
 		_putch('#');
 		ch = _getch();
+
+		// 입력받은 값이 확장키 이면
 		if (ch == 0xE0 || ch == 0) {
+			// getch() 함수는 1byte만 받을 수 있음
+			// 따라서 한번 더 호출해 줘서 입력받는다
 			ch = _getch();
+
 			switch (ch) {
 			case 75:
 				x--;
