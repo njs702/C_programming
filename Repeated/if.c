@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int if_() {
+void if_() {
 	int input;
 
 	printf("### 2 + 3 판별 프로그램 ###\n");
@@ -18,4 +18,18 @@ int if_() {
 		printf("틀렸습니다.\n");
 	}
 	printf("### 2 + 3 판별 종료 ###\n");
+}
+
+void logic_() {
+	int blood;
+	printf("### 혈당 체크 프로그램 ###\n");
+	printf("현재 혈당을 입력하세요 : ");
+	scanf_s("%d", &blood);
+	if (70 < blood && blood <= 109) {
+		puts("정상 혈당입니다.");
+	}
+	else {
+		puts("건강 관리가 필요해요.");
+	}
+	printf("### 혈당 체크 프로그램 종료###\n");
 }

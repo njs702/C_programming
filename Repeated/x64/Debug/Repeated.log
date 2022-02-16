@@ -1,5 +1,2 @@
 ﻿  if.c
-  main.c
-  코드를 생성하고 있습니다...
-C:\Users\USER\source\repos\ConsoleApplication1\Repeated\if.c(21): warning C4716: 'if_': 값을 반환해야 합니다.
   Repeated.vcxproj -> C:\Users\USER\source\repos\ConsoleApplication1\x64\Debug\Conditional.exe
