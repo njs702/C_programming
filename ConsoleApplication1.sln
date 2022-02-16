@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "triangle", "triangle\triang
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "loop2", "loop2\loop2.vcxproj", "{B6EEE8C2-5DE3-4702-A3C8-3CF207FCB86A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "reflectsharp", "reflectsharp\reflectsharp.vcxproj", "{D7933D22-66DE-4002-B43D-CBCDE3DFD5C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{B6EEE8C2-5DE3-4702-A3C8-3CF207FCB86A}.Release|x64.Build.0 = Release|x64
 		{B6EEE8C2-5DE3-4702-A3C8-3CF207FCB86A}.Release|x86.ActiveCfg = Release|Win32
 		{B6EEE8C2-5DE3-4702-A3C8-3CF207FCB86A}.Release|x86.Build.0 = Release|Win32
+		{D7933D22-66DE-4002-B43D-CBCDE3DFD5C2}.Debug|x64.ActiveCfg = Debug|x64
+		{D7933D22-66DE-4002-B43D-CBCDE3DFD5C2}.Debug|x64.Build.0 = Debug|x64
+		{D7933D22-66DE-4002-B43D-CBCDE3DFD5C2}.Debug|x86.ActiveCfg = Debug|Win32
+		{D7933D22-66DE-4002-B43D-CBCDE3DFD5C2}.Debug|x86.Build.0 = Debug|Win32
+		{D7933D22-66DE-4002-B43D-CBCDE3DFD5C2}.Release|x64.ActiveCfg = Release|x64
+		{D7933D22-66DE-4002-B43D-CBCDE3DFD5C2}.Release|x64.Build.0 = Release|x64
+		{D7933D22-66DE-4002-B43D-CBCDE3DFD5C2}.Release|x86.ActiveCfg = Release|Win32
+		{D7933D22-66DE-4002-B43D-CBCDE3DFD5C2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
