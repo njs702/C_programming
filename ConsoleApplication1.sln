@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "animationsharp", "animation
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "triangle", "triangle\triangle.vcxproj", "{9839E95C-711F-4342-8EB5-50F1BDC7CA2E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "loop2", "loop2\loop2.vcxproj", "{B6EEE8C2-5DE3-4702-A3C8-3CF207FCB86A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +123,14 @@ Global
 		{9839E95C-711F-4342-8EB5-50F1BDC7CA2E}.Release|x64.Build.0 = Release|x64
 		{9839E95C-711F-4342-8EB5-50F1BDC7CA2E}.Release|x86.ActiveCfg = Release|Win32
 		{9839E95C-711F-4342-8EB5-50F1BDC7CA2E}.Release|x86.Build.0 = Release|Win32
+		{B6EEE8C2-5DE3-4702-A3C8-3CF207FCB86A}.Debug|x64.ActiveCfg = Debug|x64
+		{B6EEE8C2-5DE3-4702-A3C8-3CF207FCB86A}.Debug|x64.Build.0 = Debug|x64
+		{B6EEE8C2-5DE3-4702-A3C8-3CF207FCB86A}.Debug|x86.ActiveCfg = Debug|Win32
+		{B6EEE8C2-5DE3-4702-A3C8-3CF207FCB86A}.Debug|x86.Build.0 = Debug|Win32
+		{B6EEE8C2-5DE3-4702-A3C8-3CF207FCB86A}.Release|x64.ActiveCfg = Release|x64
+		{B6EEE8C2-5DE3-4702-A3C8-3CF207FCB86A}.Release|x64.Build.0 = Release|x64
+		{B6EEE8C2-5DE3-4702-A3C8-3CF207FCB86A}.Release|x86.ActiveCfg = Release|Win32
+		{B6EEE8C2-5DE3-4702-A3C8-3CF207FCB86A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
