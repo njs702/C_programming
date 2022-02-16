@@ -26,3 +26,13 @@ void reflectSharp() {
 		Sleep(200);
 	}
 }
+
+void reflectSharp2() {
+	int x = 40, y = 12, dx = 1, dy = 1;
+	for (system("cls"); !_kbhit(); Sleep(30)) {
+		gotoxy(x, y); _putch(' ');
+		gotoxy(x += dx, y += dy); _putch('#');
+		dx *= (x == 79 || x == 1) * -2 + 1;
+		dy *= (y == 24 || y == 1) * -2 + 1;
+	}
+}

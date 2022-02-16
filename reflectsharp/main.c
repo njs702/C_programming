@@ -1,5 +1,6 @@
 #include "reflectsharp.h"
 
 void main() {
-	reflectSharp();
+	//reflectSharp();
+	reflectSharp2();
 }

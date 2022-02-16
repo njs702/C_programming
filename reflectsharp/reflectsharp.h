@@ -8,3 +8,5 @@
  따라서 Visual Studio에서만 사용할 수 있고 리눅스나 OS X에서는 사용할 수 없습니다.*/
 
 void reflectSharp();
+
+void reflectSharp2();
