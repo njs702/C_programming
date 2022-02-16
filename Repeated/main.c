@@ -4,4 +4,5 @@
 void main() {
 	if_();
 	logic_();
+	logic3_();
 }
