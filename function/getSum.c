@@ -13,6 +13,6 @@ int getHour() {
 	time_t t = time(NULL);
 	struct tm date;
 
-	localtime_s(&date, &t);
+	localtime(&t);
 	return date.tm_hour;
 }

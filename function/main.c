@@ -2,11 +2,11 @@
 
 int main() {
 	int m, n;
-	printf("°è»êÇÒ ¹üÀ§ ÀÔ·Â(N ~ M) : ");
-	scanf_s("%d %d", &m, &n);
+	printf("ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½(N ~ M) : ");
+	scanf("%d %d", &m, &n);
 	printf("Sum of (%d to %d) = %d\n", m,n,getSum(m, n));
 
-	printf("ÇöÀç½Ã°¢ : %d½Ã\n", getHour());
+	printf("ï¿½ï¿½ï¿½ï¿½Ã°ï¿½ : %dï¿½ï¿½\n", getHour());
 
 
 	return 0;
