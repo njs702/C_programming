@@ -1,4 +1,5 @@
 #include "getSum.h"
+#define _CRT_SECURE_NO_WARNINGS
 
 int getSum(int from, int to) {
 	int result = 0;
@@ -6,4 +7,12 @@ int getSum(int from, int to) {
 		result += i;
 	}
 	return result;
+}
+
+int getHour() {
+	time_t t = time(NULL);
+	struct tm date;
+
+	localtime_s(&date, &t);
+	return date.tm_hour;
 }
