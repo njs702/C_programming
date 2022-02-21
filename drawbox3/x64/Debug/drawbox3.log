@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\USER\source\repos\ConsoleApplication1\drawbox3\main.c(6,8): warning C4013: 'putch'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\USER\source\repos\ConsoleApplication1\drawbox3\main.c(13,18): warning C4013: 'strlen'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  drawbox3.vcxproj -> C:\Users\USER\source\repos\ConsoleApplication1\x64\Debug\drawbox3.exe
