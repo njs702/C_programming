@@ -37,6 +37,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "drawbox2", "drawbox2\drawbo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "drawbox3", "drawbox3\drawbox3.vcxproj", "{03A84181-5BF6-472D-8621-214B3119F275}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "file_io", "file_io\file_io.vcxproj", "{BCF1287B-8839-44D9-8A3D-B824DCFFE29A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -181,6 +183,14 @@ Global
 		{03A84181-5BF6-472D-8621-214B3119F275}.Release|x64.Build.0 = Release|x64
 		{03A84181-5BF6-472D-8621-214B3119F275}.Release|x86.ActiveCfg = Release|Win32
 		{03A84181-5BF6-472D-8621-214B3119F275}.Release|x86.Build.0 = Release|Win32
+		{BCF1287B-8839-44D9-8A3D-B824DCFFE29A}.Debug|x64.ActiveCfg = Debug|x64
+		{BCF1287B-8839-44D9-8A3D-B824DCFFE29A}.Debug|x64.Build.0 = Debug|x64
+		{BCF1287B-8839-44D9-8A3D-B824DCFFE29A}.Debug|x86.ActiveCfg = Debug|Win32
+		{BCF1287B-8839-44D9-8A3D-B824DCFFE29A}.Debug|x86.Build.0 = Debug|Win32
+		{BCF1287B-8839-44D9-8A3D-B824DCFFE29A}.Release|x64.ActiveCfg = Release|x64
+		{BCF1287B-8839-44D9-8A3D-B824DCFFE29A}.Release|x64.Build.0 = Release|x64
+		{BCF1287B-8839-44D9-8A3D-B824DCFFE29A}.Release|x86.ActiveCfg = Release|Win32
+		{BCF1287B-8839-44D9-8A3D-B824DCFFE29A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

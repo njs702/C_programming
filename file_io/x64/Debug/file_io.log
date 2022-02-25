@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\USER\source\repos\ConsoleApplication1\file_io\main.c(2,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': 매크로 재정의
+C:\Users\USER\source\repos\ConsoleApplication1\file_io\main.c : message : '_CRT_SECURE_NO_WARNINGS'의 이전 정의를 참조하십시오.
+  file_io.vcxproj -> C:\Users\USER\source\repos\ConsoleApplication1\x64\Debug\file_io.exe
