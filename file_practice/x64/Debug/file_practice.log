@@ -1,0 +1,5 @@
+﻿  main.c
+C:\Users\USER\source\repos\ConsoleApplication1\file_practice\main.c(4,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': 매크로 재정의
+C:\Users\USER\source\repos\ConsoleApplication1\file_practice\main.c : message : '_CRT_SECURE_NO_WARNINGS'의 이전 정의를 참조하십시오.
+C:\Users\USER\source\repos\ConsoleApplication1\file_practice\main.c(14,3): warning C4098: 'main': 'void' 함수에서 값을 반환하고 있습니다.
+  file_practice.vcxproj -> C:\Users\USER\source\repos\ConsoleApplication1\x64\Debug\file_practice.exe
